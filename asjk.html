@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsycheMaster - Buku Psikologi Modern</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Niggerr */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(12, 12, 12, 0.95);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #606060, #a0a0a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #808080;
+        }
+
+        /* Nigger 2 */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url(pagani-huayra-bc-3840x2160-20075.jpg) center/cover;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #ffffff, #c0c0c0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* black */
+        .features {
+            padding: 5rem 5%;
+            background: #f0f0f0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: #606060;
+            margin: 1rem 0;
+        }
+
+        /* Book Preview */
+        .preview-section {
+            padding: 5rem 5%;
+            background: linear-gradient(45deg, #ffffff, #f0f0f0);
+            text-align: center;
+        }
+
+        .book-cover {
+            width: 300px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        .cta-button {
+            background: linear-gradient(45deg, #606060, #909090);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pagani</div>
+        <div class="nav-links">
+            <a href="#home">Beranda</a>
+            <a href="#features">Fitur</a>
+            <a href="#preview">Pratinjau</a>
+            <a href="#contact">Kontak</a>
+        </div>
+    </nav>
+    <!-- Im gay-->
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Pagani Huayra</h1>
+            <p>Mobil Hypercar tercepat yang penah ada dalam sejarah</p>
+            <br>
+            <a href="https://www.pagani.com/" target="_self">
+            <button class="cta-button">Beli Sekarang</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Keunggulan Buku</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Huayra BC</h3>
+                <p>Mencakup semua aspek psikologi modern dari teori hingga aplikasi praktis</p>
+            </div>
+            <div class="feature-card">
+                <h3>Huayra Roadster</h3>
+                <p>Studi kasus nyata dan contoh aplikasi dalam kehidupan sehari-hari</p>
+            </div>
+            <div class="feature-card">
+                <h3>Huaryra Imola</h3>
+                <p>Berdasarkan penelitian terkini dan data empiris yang valid</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="preview-section" id="preview">
+        <h2>Pratinjau Buku</h2>
+        <img src="Pagani-Huayra-PNG-File.png" alt="Cover Buku" class="book-cover">
+        <div>
+<a href="https://rule34.xxx/index.php?page=post&s=list&tags=idksterling+" target="_self">
+            <button class="cta-button">Pre Order</button>
+</a>
+        </div>
+    </section>
+</body>
+</html>
