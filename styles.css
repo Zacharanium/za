@@ -1,0 +1,17 @@
+/* Efek Parallax */
+header {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Animasi Scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Hover Efek */
+  a:hover, button:hover {
+    transition: all 0.3s ease;
+  }
